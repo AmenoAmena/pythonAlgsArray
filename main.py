@@ -57,8 +57,10 @@ class arrayAlgs:
             array.sort()
         return array
 
+    def killArray(self, array):
+        array = None
+        return array
+
 
 arr = arrayAlgs()
 
-arrReversed = arr.badThirteenSort([4,2,13,13])
-print(arrReversed)
