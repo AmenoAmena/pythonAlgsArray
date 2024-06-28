@@ -6,7 +6,7 @@ class arrayAlgs:
 
     def reverse(self, array):
         if len(array) < 2:
-            print("array length should be bigger than 1 tou use this")
+            print("array length should be bigger than 1 to use this")
         array.reverse()
         return array  
 
